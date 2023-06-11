@@ -11,4 +11,4 @@
     "lint": "next lint"
   }
   
-  * Create app folder on root level and it should contain a rootlayout file, this file should have html and body tag.
+  * Create app folder on the root level and it should contain a rootlayout file,and this file should have `html` and `body` tag.
