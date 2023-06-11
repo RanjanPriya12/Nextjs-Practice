@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST="{\n  \"cssImports\": {},\n  \"cssModules\": {\n    \"C:\\\\Users\\\\priya\\\\OneDrive\\\\Documents\\\\GitHub\\\\Nextjs\\\\app\\\\page\": []\n  }\n}"
