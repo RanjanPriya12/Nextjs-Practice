@@ -1,6 +1,10 @@
 {
   "cssImports": {},
   "cssModules": {
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\page": []
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\page": [],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\about\\page": [],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\services\\page": [],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\blog\\page": [],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\contact\\page": []
   }
 }
