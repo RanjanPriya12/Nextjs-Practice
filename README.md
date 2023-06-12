@@ -16,3 +16,13 @@
 * Run your application with command `npm run dev`.
 * We can't directly import server component inside client component we can use server component as a props inside client component.
 * The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
+
+# Component Hierarchy:
+The React components defined in special files of a route segment are rendered in a specific hierarchy:
+
+-layout.js
+-template.js
+-error.js (React error boundary)
+-loading.js (React suspense boundary)
+-not-found.js (React error boundary)
+-page.js or nested layout.js
