@@ -20,9 +20,9 @@
 # Component Hierarchy:
 The React components defined in special files of a route segment are rendered in a specific hierarchy:
 
-*-layout.js
--template.js
--error.js (React error boundary)
--loading.js (React suspense boundary)
--not-found.js (React error boundary)
--page.js or nested layout.js
+* 1. layout.js
+* 2. template.js
+* 3. error.js (React error boundary)
+* 4. loading.js (React suspense boundary)
+* 5. not-found.js (React error boundary)
+* 6. page.js or nested layout.js
