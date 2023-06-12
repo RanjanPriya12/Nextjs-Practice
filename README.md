@@ -11,4 +11,4 @@
     "lint": "next lint"
   }`
   
-  * Create app folder on the root level and it should contain a rootlayout.js file,and this file should have `html` and `body` tag and another file with name page.js to create or make UI.
+  * Create app folder on the root level and it should contain a rootlayout.js file,and this file should have `html` and `body` tag with prop `children` and another file with name page.js to create or make UI.
