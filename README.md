@@ -28,3 +28,7 @@ The React components defined in special files of a route segment are rendered in
 
 # Styling
 CSS can be added using `CSS Module` like app/folder/style.module.css or using `GLobal CSS` as app/global.css.
+
+#Routing :
+A file-system-based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.
+*Good to know: The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
