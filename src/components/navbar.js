@@ -4,24 +4,36 @@ import Link from "next/link";
 
 export const Navbar = () => {
     const navLinks = [
-        { name: "Home", 
+        { name: "logo", 
          path: "/" 
         },
         {
-          name: "About Us",
-          path: "/about",
+          name: "Fitness",
+          path: "/fitness",
         },
         {
-          name: "Services",
-          path: "/services",
+          name: "Care",
+          path: "/care",
         },
         {
-          name: "Blog",
-          path: "/blog",
+          name: "Mind",
+          path: "/mind",
         },
         {
-          name: "Contact Us",
-          path: "contact",
+          name: "Store",
+          path: "/store",
+        },
+        {
+          name: "Location",
+          path: "/location",
+        },
+        {
+          name: "Login",
+          path: "/login",
+        },
+        {
+          name: "Cart",
+          path: "/cart",
         },
       ];
   return (

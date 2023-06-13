@@ -176,26 +176,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/counter.js": {
-      "*": {
-        "id": "(sc_client)/./src/components/counter.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/counter.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "Counter": {
-        "id": "(sc_client)/./src/components/counter.js",
-        "name": "Counter",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -232,6 +212,26 @@
       "Navbar": {
         "id": "(sc_client)/./src/components/navbar.js",
         "name": "Navbar",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/counter.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/counter.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/counter.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "Counter": {
+        "id": "(sc_client)/./src/components/counter.js",
+        "name": "Counter",
         "chunks": [],
         "async": false
       }
@@ -911,30 +911,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js": {
-      "id": "(app-client)/./src/components/counter.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js#": {
-      "id": "(app-client)/./src/components/counter.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js#Counter": {
-      "id": "(app-client)/./src/components/counter.js",
-      "name": "Counter",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
@@ -1004,6 +980,30 @@
       "name": "Navbar",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js": {
+      "id": "(app-client)/./src/components/counter.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js#": {
+      "id": "(app-client)/./src/components/counter.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\src\\components\\counter.js#Counter": {
+      "id": "(app-client)/./src/components/counter.js",
+      "name": "Counter",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
