@@ -32,3 +32,4 @@ CSS can be added using `CSS Module` like app/folder/style.module.css or using `G
 # Routing :
 A file-system-based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.
 * Good to know: The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
+* Folders are used to define routes. A route is a single path of nested folders, following the file-system hierarchy from the root folder down to a final leaf folder that includes a page.js file. Files are used to create UI.
