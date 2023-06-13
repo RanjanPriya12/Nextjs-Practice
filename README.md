@@ -20,6 +20,10 @@
 # Component Hierarchy:
 The React components defined in special files of a route segment are rendered in a specific hierarchy:
 
+#Routing :
+A file-system-based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.
+
+
 * 1. layout.js
 * 2. template.js
 * 3. error.js (React error boundary)
