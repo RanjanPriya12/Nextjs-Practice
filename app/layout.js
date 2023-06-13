@@ -1,4 +1,5 @@
 import { Navbar } from "../src/components/navbar";
+import "./global.css";
 
 export default function RootLayout({ children }) {
   return (

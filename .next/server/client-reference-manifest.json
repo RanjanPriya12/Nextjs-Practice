@@ -911,6 +911,13 @@
       ],
       "async": false
     },
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
