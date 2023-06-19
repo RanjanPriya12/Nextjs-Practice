@@ -56,3 +56,8 @@ A file-system-based router built on top of Server Components that support layout
 
 * The Next.js router uses server-centric routing with client-side navigation. It supports instant loading states and concurrent rendering.
 * You can use usePathname() to determine if a link is active.
+
+## Scrolling to an id :
+/<Link href="/#hashid" scroll={false}>
+  Scroll to specific id.
+</Link>/
