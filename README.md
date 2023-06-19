@@ -54,4 +54,5 @@ A file-system-based router built on top of Server Components that support layout
 * Link (Component) next/link
 * useRouter (Hook) next/navigation
 
-* The Next.js router uses server-centric routing with client-side navigation. It supports instant loading states and concurrent rendering. 
+* The Next.js router uses server-centric routing with client-side navigation. It supports instant loading states and concurrent rendering.
+* You can use usePathname() to determine if a link is active.
