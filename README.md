@@ -41,3 +41,4 @@ A file-system-based router built on top of Server Components that support layout
 * Layouts are Server Components by default but can be set to a Client Component.
 * The topmost layout is called the Root Layout. This required layout is shared across all pages in an application. Root layouts must contain `html` and `body` tags.
 * Passing data between a parent layout and its children is not possible.
+* Layouts do not have access to the current route segment(s). To access route segments, you can use useSelectedLayoutSegment or useSelectedLayoutSegments in a Client Component.
