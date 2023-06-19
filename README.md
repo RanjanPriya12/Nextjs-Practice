@@ -51,3 +51,7 @@ A file-system-based router built on top of Server Components that support layout
   Good to know: You should not manually add <head> tags such as <title> and <meta> to root layouts. Instead, you should use the Metadata API which automatically handles advanced requirements such as streaming and de-duplicating <head> elements.
 
 ## Linking and Navigating
+* Link (Component) next/link
+* useRouter (Hook) next/navigation
+
+* The Next.js router uses server-centric routing with client-side navigation. It supports instant loading states and concurrent rendering. 
