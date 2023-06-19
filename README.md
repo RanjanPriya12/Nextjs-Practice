@@ -58,6 +58,6 @@ A file-system-based router built on top of Server Components that support layout
 * You can use usePathname() to determine if a link is active.
 
 ## Scrolling to an id :
-/<Link href="/#hashid" scroll={false}>
-  Scroll to specific id.
-</Link>/
+<Link href="/#hashid" scroll={false}>
+  Scroll to a specific id.
+</Link>
