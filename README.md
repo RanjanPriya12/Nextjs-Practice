@@ -34,5 +34,7 @@ A file-system-based router built on top of Server Components that support layout
 * Good to know: The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
 * Folders are used to define routes. A route is a single path of nested folders, following the file-system hierarchy from the root folder down to a final leaf folder that includes a page.js file. Files are used to create UI.
 
-#Page :
+## Page :
 * Pages are Server Components by default but can be set to a Client Component. They are used to create UI and A page.js file is required to make a route segment publicly accessible.
+##  Layouts
+* A layout is UI that is shared between multiple pages. On navigation, layouts preserve state, remain interactive, and do not re-render.
