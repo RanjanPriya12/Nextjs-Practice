@@ -39,3 +39,4 @@ A file-system-based router built on top of Server Components that support layout
 ##  Layouts
 * A layout is UI that is shared between multiple pages. On navigation, layouts preserve state, remain interactive, and do not re-render.
 * Layouts are Server Components by default but can be set to a Client Component.
+* The topmost layout is called the Root Layout. This required layout is shared across all pages in an application. Root layouts must contain `html` and `body` tags.
