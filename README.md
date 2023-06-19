@@ -43,3 +43,6 @@ A file-system-based router built on top of Server Components that support layout
 * Passing data between a parent layout and its children is not possible.
 * Layouts do not have access to the current route segment(s). To access route segments, you can use useSelectedLayoutSegment or useSelectedLayoutSegments in a Client Component.
 * The root layout is a Server Component by default and can not be set to a Client Component.
+
+## Templates
+* Templates are similar to layouts in that they wrap each child layout or page. Unlike layouts that persist across routes and maintain state, templates create a new instance for each of their children on navigation.
