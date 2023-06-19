@@ -30,6 +30,9 @@ The React components defined in special files of a route segment are rendered in
 CSS can be added using `CSS Module` like app/folder/style.module.css or using `GLobal CSS` as app/global.css.
 
 # Routing :
-A file-system-based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.
+A file-system-based router built on top of Server Components that support layouts, nested routing, loading states, error handling, and more.
 * Good to know: The App Router takes priority over the Pages Router. Routes across directories should not resolve to the same URL path and will cause a build-time error to prevent a conflict.
 * Folders are used to define routes. A route is a single path of nested folders, following the file-system hierarchy from the root folder down to a final leaf folder that includes a page.js file. Files are used to create UI.
+
+#Page :
+* Pages are Server Components by default but can be set to a Client Component. They are used to create UI and A page.js file is required to make a route segment publicly accessible.
