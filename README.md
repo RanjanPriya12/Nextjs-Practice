@@ -49,3 +49,5 @@ A file-system-based router built on top of Server Components that support layout
 * When a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, the state is not preserved, and effects are re-synchronized.
 
   Good to know: You should not manually add <head> tags such as <title> and <meta> to root layouts. Instead, you should use the Metadata API which automatically handles advanced requirements such as streaming and de-duplicating <head> elements.
+
+## Linking and Navigating
