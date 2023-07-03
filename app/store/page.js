@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Services(){
+export default function Store(){
   return (
-    <div>Services page</div>
+    <div>Store page</div>
   )
 }

@@ -1,7 +1,7 @@
 
 import React from "react";
-export default function Blogs(){
+export default function Mind(){
   return (
-    <div>Blogs page</div>
+    <div>Mind page</div>
   )
 }

@@ -1,0 +1,45 @@
+.loginPage{
+ width: 100%;
+ margin: auto;
+ margin-top: 150px;
+ height: 50vh;
+ display: grid;
+ grid-template-columns: repeat(2,2fr);
+ place-items: center;
+}
+.loginImage{
+    height: 100%;
+    max-height: 100%;
+    background-color: aquamarine;
+}
+.loginForm{
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+}
+.credential{
+    width: 380px;
+    margin-bottom: 5px;
+}
+.credential label, .credential input{
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.credential input{
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.credential input[type="submit"]{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.loginImage{
+    padding: 10px;
+    background-color: white;
+}
