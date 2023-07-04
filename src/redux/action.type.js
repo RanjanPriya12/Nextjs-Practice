@@ -1,0 +1,44 @@
+// register varaiable
+export const REGISTER_REQUEST = "REGISTER_REQUEST";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_ERROR = "REGISTER_ERROR";
+
+// login varaiable
+export const LOGIN_REQUEST = "LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+
+// get all products
+export const GET_PRODUCTS_REQUEST = "GET_PRODUCTS_REQUEST";
+export const GET_PRODUCTS_SUCCESS = "GET_PRODUCTS_SUCCESS";
+export const GET_PRODUCTS_ERROR = "GET_PRODUCTS_ERROR";
+
+// add product to database by admin
+export const ADD_PRODUCT_REQUEST = "ADD_PRODUCT_REQUEST";
+export const ADD_PRODUCT_SUCCESS = "ADD_PRODUCT_SUCCESS";
+export const ADD_PRODUCT_ERROR = "ADD_PRODUCT_ERROR";
+
+// update product by admin
+export const UPDATE_PRODUCT_REQUEST = "UPDATE_PRODUCT_REQUEST";
+export const UPDATE_PRODUCT_SUCCESS = "UPDATE_PRODUCT_SUCCESS";
+export const UPDATE_PRODUCT_ERROR = "UPDATE_PRODUCT_ERROR";
+
+// delete product by admin
+export const DELETE_PRODUCT_REQUEST = "DELETE_PRODUCT_REQUEST";
+export const DELETE_PRODUCT_SUCCESS = "DELETE_PRODUCT_SUCCESS";
+export const DELETE_PRODUCT_ERROR = "DELETE_PRODUCT_ERROR";
+
+// add product into cart by customers
+export const ADD_CART_ITEM_REQUEST = "ADD_CART_ITEM_REQUEST";
+export const ADD_CART_ITEM_SUCCESS = "ADD_CART_ITEM_SUCCESS";
+export const ADD_CART_ITEM_ERROR = "ADD_CART_ITEM_ERROR";
+
+// update cart items by customers
+export const UPDATE_CART_ITEM_REQUEST = "UPDATE_CART_ITEM_REQUEST";
+export const UPDATE_CART_ITEM_SUCCESS = "UPDATE_CART_ITEM_SUCCESS";
+export const UPDATE_CART_ITEM_ERROR = "UPDATE_CART_ITEM_ERROR";
+
+// remove cart items by customers
+export const DELETE_CART_ITEM_REQUEST = "DELETE_CART_ITEM_REQUEST";
+export const DELETE_CART_ITEM_SUCCESS = "DELETE_CART_ITEM_SUCCESS";
+export const DELETE_CART_ITEM_ERROR = "DELETE_CART_ITEM_ERROR";
