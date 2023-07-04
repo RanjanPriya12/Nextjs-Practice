@@ -1,38 +1,4 @@
 {
-  "cssImports": {
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\layout.js": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\page.js": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\login.module.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\register\\page.js": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\login.module.css"
-    ]
-  },
-  "cssModules": {
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\fitness\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\cart\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\login.module.css",
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\register\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\login\\login.module.css",
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\mind\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ],
-    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\care\\page": [
-      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
-    ]
-  }
+  "cssImports": {},
+  "cssModules": {}
 }
