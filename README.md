@@ -60,5 +60,7 @@ A file-system-based router built on top of Server Components that support layout
 ## Error Handling
 * An error.js boundary will not handle errors thrown in a layout.js component in the same segment because the error boundary is nested inside that layouts component.
 * error.js boundaries do not catch errors thrown in layout.js or template.js components of the same segment.
+* To handle errors within the root layout or template, use a variation of error.js called global-error.js.
+* The global-error.js error boundary wraps the entire application, and its fallback component replaces the root layout when active. Because of this, it is important to note that global-error.js must define its own <html> and <body> tags.
 
 
