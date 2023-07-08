@@ -1,4 +1,21 @@
 {
-  "cssImports": {},
-  "cssModules": {}
+  "cssImports": {
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\layout.js": [
+      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\page": [
+      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
+    ],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\dashboard\\admin\\products\\create\\page": [
+      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
+    ],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\dashboard\\page": [
+      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
+    ],
+    "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\fitness\\page": [
+      "C:\\Users\\priya\\OneDrive\\Documents\\GitHub\\Nextjs\\app\\global.css"
+    ]
+  }
 }
