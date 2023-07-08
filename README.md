@@ -57,4 +57,7 @@ A file-system-based router built on top of Server Components that support layout
 * The Next.js router uses server-centric routing with client-side navigation. It supports instant loading states and concurrent rendering.
 * You can use usePathname() to determine if a link is active.
 
+## Error Handling
+* An error.js boundary will not handle errors thrown in a layout.js component in the same segment because the error boundary is nested inside that layouts component.
+
 
