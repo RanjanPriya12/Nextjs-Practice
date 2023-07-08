@@ -59,5 +59,6 @@ A file-system-based router built on top of Server Components that support layout
 
 ## Error Handling
 * An error.js boundary will not handle errors thrown in a layout.js component in the same segment because the error boundary is nested inside that layouts component.
+* error.js boundaries do not catch errors thrown in layout.js or template.js components of the same segment.
 
 
