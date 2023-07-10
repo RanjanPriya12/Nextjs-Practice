@@ -63,4 +63,6 @@ A file-system-based router built on top of Server Components that support layout
 * To handle errors within the root layout or template, use a variation of error.js called global-error.js.
 * The global-error.js error boundary wraps the entire application, and its fallback component replaces the root layout when active. Because of this, it is important to note that global-error.js must define its own <html> and <body> tags.
 
+## Data Fetching
+* With parallel data fetching, requests in a route are eagerly initiated and will load data at the same time. This reduces client-server waterfalls and the total time it takes to load data.
 
