@@ -66,4 +66,5 @@ A file-system-based router built on top of Server Components that support layout
 ## Data Fetching
 * With parallel data fetching, requests in a route are eagerly initiated and will load data at the same time. This reduces client-server waterfalls and the total time it takes to load data.
 * With sequential data fetching, requests in a route are dependent on each other and create waterfalls. There may be cases where you want this pattern because one fetch depends on the result of the other, or you want a condition to be satisfied before the next fetch to save resources. However, this behavior can also be unintentional and lead to longer loading times.
+* use is a new React function that accepts a promise conceptually similar to await. use handles the promise returned by a function in a way that is compatible with components, hooks, and Suspense.
 
