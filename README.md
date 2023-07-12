@@ -69,3 +69,4 @@ A file-system-based router built on top of Server Components that support layout
 * use is a new React function that accepts a promise conceptually similar to await. use handles the promise returned by a function in a way that is compatible with components, hooks, and Suspense.
 *  Dynamic functions like cookies() and headers() will make the route segment dynamic.
 
+## Caching Data
