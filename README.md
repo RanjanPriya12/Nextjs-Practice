@@ -70,3 +70,4 @@ A file-system-based router built on top of Server Components that support layout
 *  Dynamic functions like cookies() and headers() will make the route segment dynamic.
 
 ## Caching Data
+* Next.js has built-in support for caching data, both on a per-request basis (recommended) or for an entire route segment.
