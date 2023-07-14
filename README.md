@@ -26,7 +26,7 @@ The React components defined in special files of a route segment are rendered in
 * 5. not-found.js (React error boundary)
 * 6. page.js or nested layout.js
 
-# Styling
+## Styling
 CSS can be added using `CSS Module` like app/folder/style.module.css or using `GLobal CSS` as app/global.css.
 
 # Routing :
