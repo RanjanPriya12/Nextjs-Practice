@@ -1,4 +1,4 @@
-# Nextjs-Practice
+## Nextjs-Practice
 
 * Create a next project using the following command---->
  `npm install next@latest react@latest react-dom@latest`
