@@ -11,7 +11,7 @@
     "lint": "next lint"
   }`
   
-  * Create an app folder on the root level and it should contain a rootlayout.js file, and this file should have `HTML` and `body` tags with prop `children` and another file with the name page.js to create or make UI.
+* Create an app folder on the root level and it should contain a rootlayout.js file, and this file should have `HTML` and `body` tags with prop `children` and another file with the name page.js to create or make UI.
 
 * Run your application with the command `npm run dev`.
 * We can't directly import server components inside client components we can use server components as props inside client components.
